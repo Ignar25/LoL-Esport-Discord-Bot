@@ -1,0 +1,23 @@
+{
+  "name": "lolbotsport",
+  "version": "1.0.0",
+  "description": "Lol Esport Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ignar25/LoL-Esport-Discord-Bot.git"
+  },
+  "author": "ZerØ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ignar25/LoL-Esport-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Ignar25/LoL-Esport-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "moment": "^2.24.0"
+  }
+}
