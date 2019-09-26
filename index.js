@@ -1,10 +1,11 @@
 const Discord = require("discord.js");
-const { prefix, token, API } = require("./config.json");
+const { prefix, token } = require("./config.json");
 const client = new Discord.Client();
 const Request = require("request");
 const moment = require("moment");
 moment().locale("es");
 
+const API = process.env.API;
 client.login(process.env.token);
 
 client.on("ready", () => {
