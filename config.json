@@ -1,5 +1,5 @@
 {
     "prefix": "?",
-    "token" : "token",
-    "API": "BxYaXuNuoGFwmQFRbiR7txvt9Ony3OsRihuEUWHsqwbhZDOQAUI"
+    "token" : "process.env.token",
+    "API": "process.env.API"
 }
