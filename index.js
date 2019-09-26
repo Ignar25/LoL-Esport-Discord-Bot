@@ -5,6 +5,8 @@ const Request = require("request");
 const moment = require("moment");
 moment().locale("es");
 
+client.login(process.env.token);
+
 client.on("ready", () => {
   console.log("Ready!");
 });
