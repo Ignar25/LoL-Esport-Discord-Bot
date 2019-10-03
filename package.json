@@ -4,7 +4,8 @@
   "description": "Lol Esport Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,15 @@
   "bugs": {
     "url": "https://github.com/Ignar25/LoL-Esport-Discord-Bot/issues"
   },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
   "homepage": "https://github.com/Ignar25/LoL-Esport-Discord-Bot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "request": "^2.88.0"
   }
 }
