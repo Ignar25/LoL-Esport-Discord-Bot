@@ -876,6 +876,7 @@ client.on("message", msg => {
                       "\n En vivo en https://watch.lolesports.com/ el " +
                       moment(b.begin_at)
                         .locale("es")
+                        .tz("America/Argentina/Buenos_Aires")
                         .format("dddd DD, MMMM, HH:mm")
                   );
                 msg.channel.send(emb);
