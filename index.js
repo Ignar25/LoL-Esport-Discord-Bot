@@ -302,7 +302,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}G2`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -348,7 +348,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}GRF`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -394,7 +394,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}C9`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -440,7 +440,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}JT`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -486,7 +486,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}FPX`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -532,7 +532,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}GAM`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -578,7 +578,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}RNG`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -624,7 +624,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}FNC`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -671,7 +671,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}T1`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -717,7 +717,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}TL`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -762,7 +762,7 @@ client.on("message", msg => {
     msg.content.startsWith(`${prefix}IG`)
   ) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
@@ -804,7 +804,7 @@ client.on("message", msg => {
 
   if (msg.content.startsWith(`${prefix}ahq`)) {
     const url =
-      "https://api.pandascore.co/lol/matches?filter[league_id]=297&token=" +
+      "https://api.pandascore.co/lol/tournaments/upcoming?filter=[name]=World%20Championship&token=" +
       API;
     Request.get(url, (err, req, res) => {
       if (err) {
