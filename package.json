@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Ignar25/LoL-Esport-Discord-Bot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.26",
     "request": "^2.88.0"
   }
